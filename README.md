@@ -13,6 +13,10 @@ Chat app built with React, Vite, and Firebase.
 
 3. Start the development server with `npm run dev`.
 
+If the deployed site shows a Firebase configuration message, add the Firebase
+Web API key as the `VITE_API_KEY` Actions secret under **Settings → Secrets and
+variables → Actions**, then rerun the deployment workflow.
+
 ## Publish with GitHub Pages
 
 The `Deploy to GitHub Pages` workflow builds and publishes the site whenever
